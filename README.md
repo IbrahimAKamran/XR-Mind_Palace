@@ -1,25 +1,24 @@
-# ◈ Mind Palace XR
+# Mind Palace XR
 
 **Every person you meet becomes a room.**
 Mind Palace XR listens to someone's voice, recognises them next time you meet, and builds them a room in a WebXR memory palace. Facts they tell you float as objects in the room, past conversations line the back wall as a timeline, and the room's colours, size, wallpaper and ceiling ribbon are all generated from **their voiceprint**.
 
-It runs in the browser: on a laptop with keyboard and mouse ("headset sim" + webcam passthrough), in the Immersive Web Emulator, or on a real Quest headset.
-
+currently we did not have a quest headset, so it will run in browser and simulate using it in VR 
 ---
 
 ## Features
 
 | | |
 |---|---|
-| 🎙 **Voice identification** | MFCC + pitch voiceprint captured in ~5s, matched against everyone you've met (cosine timbre + pitch similarity). Confirmed matches refine the stored print. |
-| 🪪 **Profiles** | Created on first meeting, updated on every encounter. |
-| ✅ **Consent first** | New voices trigger a consent script. Answer out loud ("yes" / "no") or with buttons. Nothing about a new person is saved until they agree, and declining switches to ephemeral mode. |
-| 📝 **Live transcription → facts** | Web Speech API transcribes; a rule-based extractor pulls out name, work, studies, places, likes, family and projects, and they **pop into the room as 3D objects** while you talk. |
-| 🕰 **Timeline wall** | Each conversation (date, where, how you met, summary, keywords) becomes a card on the back wall. Click one to read the transcript. |
-| 🎨 **Voice-generated rooms** | Pitch → hue, pitch variation → saturation, spectral brightness → room size/height, MFCC curve → wallpaper waves + ceiling ribbon. Same voice, same room. |
-| 🖐 **Customise your palace** | Drag, raise, rotate, resize and recolour memory objects; tweak hue, size, brightness and wallpaper per room. Layout is saved. |
-| 🥽 **XR** | Enter VR / Enter AR (WebXR), controller grab, smooth locomotion, snap turn, in-headset status panel. Laptop passthrough uses the webcam as the "real world". |
-| 🔒 **Local-only** | Everything is stored in `localStorage`. No audio is ever recorded or stored, only numeric voice features. Export/import JSON, revoke and delete per person. |
+|  **Voice identification** | MFCC + pitch voiceprint captured in ~5s, matched against everyone you've met (cosine timbre + pitch similarity). Confirmed matches refine the stored print. |
+|  **Profiles** | Created on first meeting, updated on every encounter. |
+|  **Consent first** | New voices trigger a consent script. Answer out loud ("yes" / "no") or with buttons. Nothing about a new person is saved until they agree|
+| **Live transcription → facts** | Web Speech API transcribes; a rule-based extractor pulls out name, work, studies, places, likes, family and projects, and they **pop into the room as 3D objects** while you talk. |
+| **Timeline wall** | Each conversation (date, where, how you met, summary, keywords) becomes a card on the back wall. Click one to read the transcript. |
+| **Voice-generated rooms** | Pitch → hue, pitch variation → saturation, spectral brightness → room size/height, MFCC curve → wallpaper waves + ceiling ribbon. Same voice, same room. |
+| **Customise your palace** | Drag, raise, rotate, resize and recolour memory objects; tweak hue, size, brightness and wallpaper per room. Layout is saved. |
+| **XR** | Enter VR / Enter AR (WebXR), controller grab, smooth locomotion, snap turn, in-headset status panel. Laptop passthrough uses the webcam as the "real world". |
+| **Local-only** | Everything is stored in `localStorage`. No audio is ever recorded or stored, only numeric voice features. Export/import JSON, revoke and delete per person. |
 
 ## Quick start
 
@@ -32,7 +31,6 @@ npm run dev
 
 Open **http://localhost:5173** in **Chrome or Edge** (needed for live speech-to-text), allow the microphone, and you're in.
 
-> No people yet? Go to the **Palace** tab → **Load demo people**.
 
 ### Controls (laptop "headset sim")
 
