@@ -3,7 +3,7 @@
 **Every person you meet becomes a room.**
 It's difficult to remember people right? Everyone is guilty of forgetting a name, fact, or context about that person you're sure you've met and can't for the life of you remember who or when or how. One way to improve that is through Mind Palaces, a technique for improving one's memory by recontextualizing your memories and brain into a house with specific places for objects. But cerebral mind palaces are weird. So why not try a virtual one instead?
 
-Mind Palace XR listens to someone's voice, recognises them next time you meet, and builds them a room in a WebXR memory palace. Facts they tell you float as objects in the room, past conversations line the back wall as a timeline, and the room's colours, size, wallpaper and ceiling ribbon are can all be generated or customized from **their voiceprint**.
+Mind Palace XR listens to someone's voice, using smart glasses like Mentra or Meta glasses recognises them next time you meet, and builds them a VR room in a WebXR memory palace that you can visit and reference later! Facts they tell you float as objects in the room, past conversations line the back wall as a timeline, and the room's colours, size, wallpaper and ceiling ribbon are can all be generated or customized from **their voiceprint**. When their voiceprint is recognized, you can better remember the context and memories with that person!
 
 currently we did not have a quest headset, so it will run in browser and simulate using it in VR 
 ---
